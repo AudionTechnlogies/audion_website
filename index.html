@@ -188,25 +188,15 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
 
-    <!-- <script>
-        document.getElementById("submitButton").addEventListener("click", function(event) {
-          event.preventDefault(); // Prevent form submission (change if needed)
-          var button = event.target;
-          button.value = '<img src="images/check_mark.svg" width="16px" height="16px">'; // Change the button's text to a checkmark or any desired text/icon
-          button.style.backgroundColor = "blue"; // Change the button's background color to green
-          button.style.color = "white"; // Change the button's text color to white
-          button.disabled = true; // Disable the button to prevent multiple clicks (optional)
-        });
-    </script> -->
 
     <script>
         document.getElementById("submitButton").addEventListener("click", function(event) {
           event.preventDefault(); // Prevent form submission (change if needed)
           var button = event.target;
-          button.innerHTML = '<img src="images/check_mark.svg" width="16px" height="16px">'; // Replace with the path to your SVG icon file
-          button.style.backgroundColor = "green"; // Change the button's background color to green
-          button.style.color = "white"; // Change the button's text color to white
-          button.disabled = true; // Disable the button to prevent multiple clicks (optional)
+          button.innerHTML = '<img src="images/check_mark.svg" width="16px" height="16px">';
+          button.style.backgroundColor = "green"; 
+          button.style.color = "white"; 
+          button.disabled = true; 
         });
       </script>
       
