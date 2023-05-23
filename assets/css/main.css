@@ -2186,7 +2186,7 @@ input, select, textarea {
 	}
 
 		header.major:after {
-			background: #e44c65;
+			background: #7F5AEF;
 			content: '';
 			display: inline-block;
 			height: 0.2em;
@@ -2899,7 +2899,7 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #e44c65;
+			background-color: #7F5AEF;
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -3398,8 +3398,8 @@ input, select, textarea {
 
 		#header nav {
 			position: absolute;
-			right: 1em;
-			top: 0;
+			right: 1.25em;
+			top: 1em;
 		}
 
 			#header nav ul {
